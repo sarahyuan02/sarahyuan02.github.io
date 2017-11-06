@@ -1,10 +1,74 @@
-h1{
-font-family: Helvetica
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
 }
-#id{
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.page-description {
+  border: 1px solid #000;
+  text-align: justify;
+  padding: 30px;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.headshot {
+  margin: 20px;
+  border: 5px solid #FFF;
+  border-radius: 100%;
+  width: 20%;
+  height: 20%;
+  
 
 }
 
-header{
-	text-align: center;
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
 }
+
+.fa-github {
+    margin-left: 27%;
+    color: #d2dbed;
+
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
